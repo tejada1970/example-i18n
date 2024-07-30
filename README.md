@@ -51,6 +51,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Puedes acceder a la descripción de la instalación y configuración de i18n a través de este enlace: [Descripción de instalación y configuración de i18n](public/pdf/example-i18n.pdf).
 
+## Clonar el repositorio
+Obtén la URL del repositorio que deseas clonar desde GitHub. Esta URL se encuentra en la página principal del repositorio en GitHub, en el botón verde que dice "Code".
+
+Ejecuta el siguiente comando en la terminal para clonar el repositorio:
+
+- git clone https://github.com/tejada1970/example-i18n.git
+
+## Instalar dependencias
+Ejecuta el siguiente comando en la terminal para instalar las dependencias necesarias:
+
+- npm install
+
 ## Uso
 
 Cambia el idioma en la url de tu navegador a 'es' o 'en' para que se muestre la traducción del contenido de la página según el idioma seleccionado.
