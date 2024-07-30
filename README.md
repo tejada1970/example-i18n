@@ -51,10 +51,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Puedes acceder a la descripción de la instalación y configuración de i18n a través de este enlace: [Descripción de instalación y configuración de i18n](public/pdf/example-i18n.pdf).
 
-## Requisitos
-Instalar Git: Asegúrate de tener Git instalado en tu sistema. Puedes descargarlo e instalarlo desde git-scm.com.
-
 ## Clonar el repositorio
+
+**Instalar Git:** Asegúrate de tener Git instalado en tu sistema. Puedes descargarlo e instalarlo desde git-scm.com.
+
 Abre la terminal Git Bash y navega a la carpeta htdocs con el siguiente comando:
 
 - cd C:/xampp/htdocs
