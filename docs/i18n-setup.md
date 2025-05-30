@@ -1,3 +1,4 @@
+
 # 🌍 Configuración paso a paso de i18n con Next.js y `next-intl`
 
 Este documento describe cómo crear desde cero una aplicación multilenguaje utilizando Next.js, TypeScript y la biblioteca `next-intl`. Sigue estos pasos para configurar correctamente tu entorno y traducir contenido de forma eficiente.
@@ -160,6 +161,74 @@ code .
 - ES7+ React/Redux/React-Native snippets de **dsznajder** — Muy útil para escribir componentes y hooks de React rápido.
 
 - Prettier — Code formatter de **Prettier** — Para mantener un código limpio y consistente con formato automático.
+
+---
+
+## 🖥️ Configurar Git Bash como terminal predeterminada en VS Code
+
+Para evitar errores como los de PowerShell (por ejemplo, "la ejecución de scripts está deshabilitada"), puedes usar Git Bash como terminal por defecto en Visual Studio Code.
+
+### 🧪 ¿Qué es Git Bash?
+
+Git Bash es una terminal que simula un entorno Linux (Bash) en Windows. Te permite usar comandos como `ls`, `cd`, `touch`, `rm`, etc., igual que en una terminal de Linux.
+
+### ✅ Pasos para configurarla:
+
+1. Abre **Visual Studio Code**.
+
+2. Abre la configuración con:
+
+   ```
+   Ctrl + ,
+   ```
+
+   O ve a:
+
+   ```
+   Archivo → Preferencias → Configuración
+   ```
+
+3. En la barra de búsqueda escribe:
+
+   ```
+   terminal predeterminada
+   ```
+
+4. Haz clic en **Edit in settings.json**
+
+5. Para establecer **Git Bash** como tu terminal predeterminada, solo tienes que añadir dos líneas clave sin borrar lo que ya tienes al final del archivo después de terminal.integrated.autoReplies, por ejemplo:
+
+```json
+{
+    ...
+
+    "terminal.integrated.autoReplies": {
+
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    }
+}
+```
+
+6. Guarda los cambios (Ctrl + S), luego cierra y vuelve a abrir VS Code. Cuando abras una nueva terminal (Ctrl + ñ), debería abrirse con Git Bash automáticamente.
+
+### 💡 Resultado:
+
+A partir de ahora, al abrir la terminal (`Ctrl + ñ`) en VS Code, se usará Git Bash por defecto. Esto evita problemas con la ejecución de scripts y te brinda una experiencia más fluida al trabajar con Node.js, Laravel, y otros entornos de desarrollo.
+
+---
+
+## 🧪 Ejecuta el proyecto:
+
+```bash
+npm run dev
+```
+
+Accede a **http://localhost:3000/** para comprobar que Next.js funciona y se visualiza correctamente.
 
 ---
 
@@ -400,12 +469,6 @@ export default function NotFound() {
 ```
 
 ---
-
-## 🧪 Ejecutar el proyecto
-
-```bash
-npm run dev
-```
 
 Abre tu navegador en [http://localhost:3000/es](http://localhost:3000/es) o `/en` para probar los idiomas.
 
