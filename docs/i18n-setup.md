@@ -1,3 +1,4 @@
+
 # 🌍 Configuración paso a paso de i18n con Next.js y `next-intl`
 
 Este documento describe cómo crear desde cero una aplicación multilenguaje utilizando Next.js, TypeScript y la biblioteca `next-intl`. Sigue estos pasos para configurar correctamente tu entorno y traducir contenido de forma eficiente.
@@ -28,10 +29,19 @@ Este documento describe cómo crear desde cero una aplicación multilenguaje uti
    npx create-next-app@latest example-i18n
    ```
 
-3. Accede al proyecto:
+3. Durante la configuración:
+
+- Presiona **Enter** en todas las opciones para aceptar la configuración recomendada e instalar todas las dependencias:
+
+**TypeScript**, **ESLint**, **Tailwind CSS**, **src**, **App Router**, **Turbopack** y **import alias**
+
+- Cuando te pregunte si deseas personalizar el **import alias** responde **Yes** y luego presiona **Enter** para aceptar la sugerencia por defecto **"@/"**
+
+
+4. Accede a la carpeta del proyecto:
 
    ```bash
-   cd example-i18n-manual
+   cd example-i18n
    ```
 
 ---
@@ -41,6 +51,28 @@ Este documento describe cómo crear desde cero una aplicación multilenguaje uti
 ```bash
 npm install next-intl
 ```
+
+---
+
+## ✅ Abre el proyecto con **Visual Studio Code**:
+
+```bash
+code .
+```
+
+---
+
+## 🔌 Extensiones recomendadas para **Visual Studio Code** en este proyecto:
+
+- Spanish Language Pack for Visual de **Microsoft** — Perfecto si prefieres la interfaz en español.
+
+- Pretty TypeScript Errors de **yoavbls** — Muy buena para ver errores TS de forma más clara.
+
+- Tailwind CSS IntelliSense de **Tailwind Labs** — Fundamental para trabajar con Tailwind CSS, con autocompletado y sugerencias.
+
+- ES7+ React/Redux/React-Native snippets de **dsznajder** — Muy útil para escribir componentes y hooks de React rápido.
+
+- Prettier — Code formatter de **Prettier** — Para mantener un código limpio y consistente con formato automático.
 
 ---
 
@@ -235,6 +267,7 @@ const Header = () => {
 }
 
 export default Header;
+```t default Header;
 ```
 
 > ⚠️ `useTranslations` sólo funciona si está dentro de un `NextIntlClientProvider`.
@@ -292,3 +325,4 @@ Abre tu navegador en [http://localhost:3000/es](http://localhost:3000/es) o `/en
 ---
 
 ¡Espero que esta guía te sea útil para aprender e implementar proyectos multilenguaje con Next.js!
+
