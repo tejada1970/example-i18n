@@ -6,7 +6,7 @@ Este documento describe cómo crear desde cero una aplicación multilenguaje uti
 
 ## 📦 Requisitos previos
 
-* Node.js (versión recomendada: >=18)-[https://nodejs.org/es](https://nodejs.org/es)
+* Node.js (versión recomendada: >=20)-[https://nodejs.org/es](https://nodejs.org/es)
 * Servidor local (recomendado-XAMPP)-[https://www.apachefriends.org/es/index.html](https://www.apachefriends.org/es/index.html)
 * Editor de código (recomendado: Visual Studio Code)-[https://code.visualstudio.com/](https://code.visualstudio.com/)
 * Git-[https://git-scm.com/](https://git-scm.com/).
