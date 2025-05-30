@@ -71,7 +71,7 @@ Luego, abre [http://localhost:3000/es](http://localhost:3000/es) o [http://local
 
 1. **Crea un nuevo proyecto actualizado** siguiendo tu guía paso a paso:
 
-- 👉 Consulta la [Guía completa de configuración i18n](./docs/i18n-setup.md)
+  - 👉 Consulta la [Guía completa de configuración i18n](./docs/i18n-setup.md)
 
 2. **Elimina o archiva el repositorio anterior** si ya no lo necesitas.
 
