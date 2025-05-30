@@ -101,6 +101,8 @@ Entonces lo mejor es comenzar desde cero con create-next-app@latest.
 
 Este proyecto está licenciado bajo la MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles. Está diseñado con fines educativos y prácticos.
 
+---
+
 ## 📦 Sobre Next.js (base del proyecto)
 
 Este proyecto fue generado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). A continuación, se incluye la documentación estándar de inicio rápido.
