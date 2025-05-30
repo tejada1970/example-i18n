@@ -65,7 +65,7 @@ Luego, abre [http://localhost:3000/es](http://localhost:3000/es) o [http://local
 
 ---
 
-## 🔄 Actualizar Repositorio (example-i18n)
+## 🔄 Actualizar repositorio (example-i18n)
 
 ### 🔧 Plan sugerido para reiniciar el proyecto correctamente
 
