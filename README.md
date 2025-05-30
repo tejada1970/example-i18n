@@ -69,7 +69,7 @@ Luego, abre [http://localhost:3000/es](http://localhost:3000/es) o [http://local
 
 ### 🔧 Plan sugerido para reiniciar el proyecto correctamente
 
-1. **Crea un nuevo proyecto actualizado** siguiendo la: [Guía completa de configuración i18n](./docs/i18n-setup.md)
+1. **Crea un nuevo proyecto actualizado** siguiendo la [Guía completa de configuración i18n](./docs/i18n-setup.md)
 
 2. **Elimina o archiva el repositorio anterior** si ya no lo necesitas.
 
