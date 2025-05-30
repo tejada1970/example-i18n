@@ -1,4 +1,3 @@
-
 # 🌍 Configuración paso a paso de i18n con Next.js y `next-intl`
 
 Este documento describe cómo crear desde cero una aplicación multilenguaje utilizando Next.js, TypeScript y la biblioteca `next-intl`. Sigue estos pasos para configurar correctamente tu entorno y traducir contenido de forma eficiente.
@@ -68,13 +67,13 @@ Este documento describe cómo crear desde cero una aplicación multilenguaje uti
 
 ### ✅ 4. Cambiar entre versiones según el proyecto
 
-* Cuando vayas a trabajar en un proyecto, activa la versión correcta:
+* Cuando vayas a trabajar en este proyecto, activa la versión correcta:
 
   ```bash
   nvm use 20.13.1
   ```
 
-* O para Laravel (si necesita la anterior):
+* O para otro proyecto (si necesita la anterior):
 
   ```bash
   nvm use 18.17.0
