@@ -86,10 +86,6 @@ Luego, abre [http://localhost:3000/es](http://localhost:3000/es) o [http://local
   ```
 ---
 
-> Este proyecto ha sido actualizado el 30-05-2025.
-
----
-
 ### Consejo final
 
 **Si tu objetivo es:**
@@ -98,6 +94,10 @@ Luego, abre [http://localhost:3000/es](http://localhost:3000/es) o [http://local
 - Evitar errores por dependencias obsoletas
 
 ➡️ Entonces lo mejor es comenzar desde cero con create-next-app@latest.
+
+---
+
+> Este proyecto ha sido actualizado el 30-05-2025.
 
 ---
 
