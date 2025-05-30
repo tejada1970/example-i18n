@@ -77,13 +77,29 @@ Luego, abre [http://localhost:3000/es](http://localhost:3000/es) o [http://local
 
 3. **Conecta el nuevo proyecto a GitHub**, si deseas publicarlo como un nuevo repositorio:
 
-   ```bash
-   git init
-   git remote add origin https://github.com/tu-usuario/nuevo-repo.git
-   git add .
-   git commit -m "Proyecto i18n actualizado desde cero"
-   git push -u origin master
-  ```
+```bash
+git init
+git remote add origin https://github.com/tu-usuario/nuevo-repo.git
+git add .
+git commit -m "Proyecto i18n actualizado desde cero"
+git push -u origin master
+```
+---
+
+## Consejo final
+
+### Si tu objetivo es:
+- Aprender correctamente
+- Tener un entorno limpio y actualizado
+- Evitar errores por dependencias obsoletas
+
+➡️ Entonces lo mejor es comenzar desde cero con create-next-app@latest.
+
+---
+
+> Este proyecto ha sido actualizado el 30-05-2025.
+
+---
 
 ## 📟 Licencia
 
