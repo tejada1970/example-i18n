@@ -83,9 +83,8 @@ Luego, abre [http://localhost:3000/es](http://localhost:3000/es) o [http://local
    git add .
    git commit -m "Proyecto i18n actualizado desde cero"
    git push -u origin master
-
   ```
-  
+
 ---
 
 ## 📟 Licencia
