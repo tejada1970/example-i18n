@@ -1,4 +1,3 @@
-
 # 🌍 Configuración paso a paso de i18n con Next.js y `next-intl`
 
 Este documento describe cómo crear desde cero una aplicación multilenguaje utilizando Next.js, TypeScript y la biblioteca `next-intl`. Sigue estos pasos para configurar correctamente tu entorno y traducir contenido de forma eficiente.
@@ -71,6 +70,96 @@ code .
 - ES7+ React/Redux/React-Native snippets de **dsznajder** — Muy útil para escribir componentes y hooks de React rápido.
 
 - Prettier — Code formatter de **Prettier** — Para mantener un código limpio y consistente con formato automático.
+
+---
+
+## 🛠️ Paso a paso para instalar NVM en Windows
+
+### ✅ 1. Descargar NVM para Windows
+
+* Ve a esta página oficial:
+  👉 [https://github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases)
+
+* Busca la última versión y descarga este archivo:
+
+  ```
+  nvm-setup.exe
+  ```
+
+* Ejecuta el instalador. Puedes dejar las opciones por defecto (ruta de instalación, etc.).
+
+---
+
+### ✅ 2. Verifica que NVM esté instalado
+
+* Abre una terminal (PowerShell o Git Bash) y escribe:
+
+  ```bash
+  nvm version
+  ```
+
+* Deberías ver la versión de NVM instalada, por ejemplo:
+
+  ```
+  1.1.12
+  ```
+
+---
+
+## 📦 Instalar y cambiar de versión de Node.js
+
+### ✅ 3. Instalar una versión específica de Node.js
+
+* Por ejemplo, para Next.js 15 necesitas Node.js `20.13.1`:
+
+  ```bash
+  nvm install 20.13.1
+  ```
+
+* Y si también necesitas una versión anterior para otro proyecto, por ejemplo `18.17.0`:
+
+  ```bash
+  nvm install 18.17.0
+  ```
+
+---
+
+### ✅ 4. Cambiar entre versiones según el proyecto
+
+* Cuando vayas a trabajar en un proyecto, activa la versión correcta:
+
+  ```bash
+  nvm use 20.13.1
+  ```
+
+* O para Laravel (si necesita la anterior):
+
+  ```bash
+  nvm use 18.17.0
+  ```
+
+* Verifica la versión activa con:
+
+  ```bash
+  node -v
+  ```
+
+---
+
+### ✅ 5. Opcional: ver todas tus versiones instaladas
+
+```bash
+nvm list
+```
+
+* Te mostrará algo así:
+
+  ```
+  * 20.13.1 (default)
+    18.17.0
+  ```
+
+* El asterisco `*` indica cuál está activa.
 
 ---
 
@@ -323,4 +412,5 @@ Abre tu navegador en [http://localhost:3000/es](http://localhost:3000/es) o `/en
 ---
 
 ¡Espero que esta guía te sea útil para aprender e implementar proyectos multilenguaje con Next.js!
+
 
