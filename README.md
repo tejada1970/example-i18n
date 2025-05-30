@@ -71,7 +71,7 @@ Luego, abre [http://localhost:3000/es](http://localhost:3000/es) o [http://local
 
 1. **Crea un nuevo proyecto actualizado** siguiendo tu guía paso a paso:
 
-👉 Consulta la [Guía completa de configuración i18n](./docs/i18n-setup.md)
+- Consulta la [Guía completa de configuración i18n](./docs/i18n-setup.md)
 
 2. **Elimina o archiva el repositorio anterior** si ya no lo necesitas.
 
@@ -86,18 +86,18 @@ git push -u origin master
 ```
 ---
 
-## Consejo final
+## 🧠 Consejo final
 
 ### Si tu objetivo es:
 - Aprender correctamente
 - Tener un entorno limpio y actualizado
 - Evitar errores por dependencias obsoletas
 
-➡️ Entonces lo mejor es comenzar desde cero con create-next-app@latest.
+Entonces lo mejor es comenzar desde cero con create-next-app@latest.
 
 ---
 
-> Este proyecto ha sido actualizado el 30-05-2025.
+> 🗓 Este proyecto ha sido actualizado el 30-05-2025.
 
 ---
 
