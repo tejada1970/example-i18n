@@ -85,8 +85,6 @@ Luego, abre [http://localhost:3000/es](http://localhost:3000/es) o [http://local
    git push -u origin master
   ```
 
----
-
 ## 📟 Licencia
 
 Este proyecto está licenciado bajo la MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles. Está diseñado con fines educativos y prácticos.
