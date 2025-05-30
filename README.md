@@ -1,3 +1,67 @@
+# 🌐 Proyecto multilenguaje con Next.js + `next-intl`
+
+Este es un proyecto de ejemplo que implementa **i18n (internacionalización)** en Next.js usando `next-intl`, diseñado para ser una base educativa y funcional. Permite cambiar el idioma mediante rutas como `/en` y `/es`.
+
+> 📚 Incluye una guía completa paso a paso sobre cómo configurar `next-intl`.
+
+---
+
+## 🚀 Características principales
+
+- ✅ Multilenguaje (ES / EN)
+- ✅ Basado en la última versión de Next.js con App Router
+- ✅ Sin base de datos
+- ✅ Proyecto educativo y práctico
+- ✅ Componentes traducibles con soporte para Server y Client components
+
+---
+
+## 📘 ¿Qué aprenderás?
+
+* Cómo iniciar un proyecto con la última versión de Next.js desde cero.
+* Configurar rutas internacionales (`i18n`) con `next-intl`.
+* Cargar archivos de traducción para diferentes idiomas.
+* Traducir tanto componentes cliente como servidor.
+* Manejar rutas, middleware y estructura de carpetas en proyectos Next.js.
+
+---
+
+## 🔧 Configurar internacionalización paso a paso
+
+Sigue esta guía detallada para implementar `next-intl` desde cero:
+
+📄 [Guía completa de configuración i18n](./docs/i18n-setup.md)
+
+---
+
+## ✅ ¿Prefieres clonar el proyecto ya listo?
+
+Si no deseas configurar todo manualmente, puedes clonar este repositorio basado en *Next.js 14* para ver el proyecto ya funcional:
+
+Asegúrate de tener *Git* instalado en tu sistema. Puedes descargarlo e instalarlo desde [https://git-scm.com/](https://git-scm.com/).
+
+Abre la terminal *Git Bash* y navega a la carpeta *htdocs*:
+
+```bash
+cd C:/xampp/htdocs
+git clone https://github.com/tejada1970/example-i18n.git
+cd example-i18n
+npm install
+npm run dev
+```
+
+Luego, abre [http://localhost:3000/es](http://localhost:3000/es) o [http://localhost:3000/en](http://localhost:3000/en) para ver el sitio en español o inglés.
+
+---
+
+## 📟 Licencia
+
+Este proyecto está licenciado bajo la MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles. Está diseñado con fines educativos y prácticos.
+
+## 📦 Sobre Next.js (base del proyecto)
+
+Este proyecto fue generado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). A continuación, se incluye la documentación estándar de inicio rápido.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -34,42 +98,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Características
-
-**No utiliza base de datos**: Es importante señalar que este proyecto no cuenta con base de datos.
-
-**Requisitos del servidor**: Para su correcto funcionamiento el proyecto debe ejecutarse desde un servidor. Por ejemplo, se recomienda utilizar XAMPP u otro servidor local para alojar la aplicación. También se debe tener instalado Node.js en tu PC.
-
-**Es importante tener en cuenta que este es un proyecto ficticio utilizado con fines educativos y prácticos.**
-
-## Descripción
-
-Puedes acceder a la descripción de la instalación y configuración de i18n a través de este enlace: [Descripción de instalación y configuración de i18n](public/pdf/example-i18n.pdf).
-
-## Clonar el repositorio
-
-**Instalar Git:** Asegúrate de tener Git instalado en tu sistema. Puedes descargarlo e instalarlo desde git-scm.com.
-
-Abre la terminal Git Bash y navega a la carpeta htdocs con el siguiente comando:
-
-- cd C:/xampp/htdocs
-
-Obtén la URL del repositorio que deseas clonar desde GitHub. Esta URL se encuentra en la página principal del repositorio en GitHub, en el botón verde que dice "Code".
-
-Ejecuta el siguiente comando en la terminal para clonar el repositorio:
-
-- git clone https://github.com/tejada1970/example-i18n.git
-
-## Instalar dependencias
-Una vez clonado el proyecto, abrelo con tu editor preferido (Se recomienda Visual Studio Code) y ejecuta el siguiente comando en la terminal para instalar las dependencias necesarias:
-
-- npm install
-
-## Uso
-
-Cambia el idioma en la url de tu navegador a 'es' o 'en' para que se muestre la traducción del contenido de la página según el idioma seleccionado.

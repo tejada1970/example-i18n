@@ -5,7 +5,13 @@ const Header = () => {
     const t = useTranslations('Header');
     return (
         <header>
-            <h1>{t('text')}</h1>
+            <nav>
+                <ul>
+                    <li className='text-red-600 pb-4'>
+                        {t('text')}
+                    </li>
+                </ul>
+            </nav>
         </header>
     );
 }
