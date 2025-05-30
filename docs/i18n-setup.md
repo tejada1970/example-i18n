@@ -15,30 +15,28 @@ Este documento describe cómo crear desde cero una aplicación multilenguaje uti
 
 ---
 
-## 🚀 Crear un nuevo proyecto con la última versión de Next.js
+### 🚀 Crear un nuevo proyecto con la última versión de Next.js
 
-### Abre la terminal y navega a la carpeta donde quieras crear el proyecto:
+#### Abre la terminal y navega a la carpeta donde quieras crear el proyecto:
 
 ```bash
 cd C:/xampp/htdocs
 ```
 
-### Crea el proyecto con `create-next-app`:
+#### Crea el proyecto con `create-next-app`:
 
 ```bash
 npx create-next-app@latest example-i18n
 ```
 
-### Durante la configuración:
+#### Durante la configuración:
 
-- Presiona **Enter** en todas las opciones para aceptar la configuración recomendada e instalar todas las dependencias:
-
-**TypeScript**, **ESLint**, **Tailwind CSS**, **src**, **App Router**, **Turbopack** y **import alias**
+- Presiona **Enter** en todas las opciones para aceptar la configuración recomendada e instalar todas las dependencias: **TypeScript**, **ESLint**, **Tailwind CSS**, **src**, **App Router**, **Turbopack** y **import alias**
 
 - Cuando te pregunte si deseas personalizar el **import alias** responde **Yes** y luego presiona **Enter** para aceptar la sugerencia por defecto **"@/"**
 
 
-### Accede a la carpeta del proyecto:
+#### Accede a la carpeta del proyecto:
 
 ```bash
 cd example-i18n
