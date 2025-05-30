@@ -54,6 +54,17 @@ Luego, abre [http://localhost:3000/es](http://localhost:3000/es) o [http://local
 
 ---
 
+## 🛠 Consejo práctico para futuras actualizaciones (Recomendado)
+
+### ✅ Ventajas de comenzar desde cero
+
+ - Instalas dependencias actualizadas automáticamente (Next.js, React, TypeScript, etc.).
+ - Obtienes una estructura limpia, sin advertencias ni paquetes obsoletos.
+ - Mejor base para mantener y escalar el proyecto.
+ - Evitas errores como los `npm WARN deprecated`.
+
+---
+
 ## 📟 Licencia
 
 Este proyecto está licenciado bajo la MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles. Está diseñado con fines educativos y prácticos.
