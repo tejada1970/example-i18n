@@ -1,0 +1,16 @@
+{
+  "Home": {
+    "text": "Hola mundo!"
+  },
+  "Header": {
+    "text": "Header en Español"
+  },
+  "Metadata": {
+    "title": "Ejemplo i18n con Next.js, next-intl y TS",
+    "description": "Una aplicación de ejemplo multilingüe usando Next.js, next-intl y TypeScript."
+  },
+   "NotFound": {
+    "title": "Lo sentimos, no se ha podido encontrar la página.",
+    "back": "Volver"
+  }
+}
