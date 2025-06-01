@@ -8,9 +8,5 @@
   "Metadata": {
     "title": "Example i18n with Next.js, next-intl and TS",
     "description": "A sample multilingual app using Next.js, next-intl and TypeScript."
-  },
-   "NotFound": {
-    "title": "Sorry! Page Not Found.",
-    "back": "Back"
   }
 }
