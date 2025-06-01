@@ -213,7 +213,7 @@ Git Bash es una terminal que simula un entorno Linux (Bash) en Windows. Te permi
 }
 ```
 
-6. Guarda los cambios (Ctrl + S), luego cierra y vuelve a abrir VS Code. Cuando abras una nueva terminal (Ctrl + ñ), debería abrirse con Git Bash automáticamente.
+6. Guarda los cambios (Ctrl + s), luego cierra y vuelve a abrir VS Code. Cuando abras una nueva terminal (Ctrl + ñ), debería abrirse con Git Bash automáticamente.
 
 ### 💡 Resultado:
 

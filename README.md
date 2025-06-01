@@ -1,4 +1,4 @@
-# 🌐 Proyecto multilenguaje con Next.js + `next-intl`
+# 🌐 example-i18n - Proyecto multilenguaje con Next.js + `next-intl`
 
 Este es un proyecto de ejemplo que implementa **i18n (internacionalización)** en Next.js usando `next-intl`, diseñado para ser una base educativa y funcional. Permite cambiar el idioma mediante rutas como `/en` y `/es`.
 
@@ -79,9 +79,9 @@ Luego, abre [http://localhost:3000/es](http://localhost:3000/es) o [http://local
 
 ```bash
 git init
-git remote add origin https://github.com/tu-usuario/nuevo-repo.git
 git add .
-git commit -m "Proyecto i18n actualizado desde cero"
+git commit -m "Proyecto i18n actualizado desde cero."
+git remote add origin https://github.com/tu-usuario/nuevo-repo.git
 git push -u origin master
 ```
 ---
