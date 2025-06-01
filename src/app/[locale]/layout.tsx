@@ -8,9 +8,10 @@ import '@/app/globals.css';
 export async function generateMetadata({
   params
 }: {
-  params: {locale: string};
+   params: Promise<{locale: string}>;
 }): Promise<Metadata> {
-  const {locale} = params;
+  // Ensure that the incoming `locale` is valid
+  const {locale} = await params;
 
   if (!hasLocale(routing.locales, locale)) {
     notFound();
@@ -29,9 +30,10 @@ export default async function LocaleLayout({
   params
 }: {
   children: React.ReactNode;
-  params: {locale: string};
+   params: Promise<{locale: string}>;
 }) {
-  const {locale} = params;
+  // Ensure that the incoming `locale` is valid
+  const {locale} = await params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
