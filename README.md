@@ -56,37 +56,14 @@ Luego, abre [http://localhost:3000/es](http://localhost:3000/es) o [http://local
 
 ---
 
-## 🛠 Consejo práctico para futuras actualizaciones (Recomendado)
+## 🛠 Consejo práctico (Recomendado)
 
-### ✅ Ventajas de comenzar desde cero
+### ✅ Ventajas de empezar desde cero
 
  - Instalas dependencias actualizadas automáticamente (Next.js, React, TypeScript, etc.).
  - Obtienes una estructura limpia, sin advertencias ni paquetes obsoletos.
  - Mejor base para mantener y escalar el proyecto.
  - Evitas errores como los `npm WARN deprecated`.
-
----
-
-## 🔄 Actualizar repositorio (example-i18n)
-
-### 🔧 Plan sugerido para actualizar el proyecto correctamente
-
-1. **Crea un nuevo proyecto `Next.js`** siguiendo la [Guía completa de configuración i18n](./docs/config-i18n.md)
-
-2. **Elimina o archiva el repositorio anterior** si ya no lo necesitas.
-
-3. **Conecta el nuevo proyecto a GitHub**, si deseas publicarlo como un nuevo repositorio:
-
-```bash
-git init
-git add .
-git commit -m "Proyecto i18n actualizado desde cero."
-git remote add origin https://github.com/tu-usuario/nuevo-repo.git
-git push -u origin master
-```
----
-
-## 🧠 Consejo final
 
 ### Si tu objetivo es:
 - Aprender correctamente
