@@ -86,20 +86,18 @@ Puedes instalar múltiples versiones de Node.js según las necesidades del proye
 
 ### ✅ Ver versiones instaladas
 
-Para ver una lista las versiones instaladas en tu sistema:
+Para ver una lista las versiones instaladas en tu sistema, ejecuta:
 
-* Ejecuta: 
-
-```bash
-nvm list
-```
+  ```bash
+  nvm list
+  ```
 
 * El resultado será similar a:
 
-  ```plaintext
-  * * 20.13.1 (default)
-  * * 18.17.0
-  ```
+```plaintext
+* * 20.13.1 (default)
+*  18.17.0
+```
 
 * El asterisco `*` indica qué versión está activa actualmente.
 
