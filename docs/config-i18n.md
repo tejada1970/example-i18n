@@ -14,24 +14,19 @@ Este documento describe cómo crear desde cero una aplicación multilenguaje uti
 
 ---
 
-## 🛠️ Paso a paso para instalar NVM en Windows
+## 🧰 Instalación de Node.js con NVM en Windows
 
-### ✅ 1. Descargar NVM para Windows
+### ✅ Descargar NVM para Windows
 
-* Ve a esta página oficial:
-  👉 [https://github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases)
-
-* Busca la última versión y descarga este archivo:
-
-  ```
-  nvm-setup.exe
-  ```
-
-* Ejecuta el instalador. Puedes dejar las opciones por defecto (ruta de instalación, etc.).
+* Visita [https://github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases)
+* Descarga el archivo: `Assets/nvm-setup.exe` correspondiente a la última versión.
+* Ejecuta el instalador y sigue los pasos. Puedes dejar las opciones por defecto (ruta de instalación, etc.).
 
 ---
 
-### ✅ 2. Verifica que NVM esté instalado
+### ✅ Verificar que NVM se ha instalado correctamente
+
+> 💡 Se recomienda instalar **Git**. Visita la página oficial: [https://git-scm.com/](https://git-scm.com/)
 
 * Abre una terminal (PowerShell o Git Bash) y escribe:
 
@@ -47,17 +42,19 @@ Este documento describe cómo crear desde cero una aplicación multilenguaje uti
 
 ---
 
-## 📦 Instalar y cambiar de versión de Node.js
+## 📦 Instalar y gestionar versiones de Node.js
 
-### ✅ 3. Instalar una versión específica de Node.js
+### ✅ Instalar versiones específicas
 
-* Por ejemplo, para Next.js 15 necesitas Node.js `20.13.1`:
+Puedes instalar múltiples versiones de Node.js según las necesidades del proyecto. Por ejemplo:
+
+* Para Next.js 15, se recomienda: 
 
   ```bash
   nvm install 20.13.1
   ```
 
-* Y si también necesitas una versión anterior para otro proyecto, por ejemplo `18.17.0`:
+* Si necesitas una versión anterior:
 
   ```bash
   nvm install 18.17.0
@@ -65,21 +62,21 @@ Este documento describe cómo crear desde cero una aplicación multilenguaje uti
 
 ---
 
-### ✅ 4. Cambiar entre versiones según el proyecto
+### ✅ Cambiar de versión según el proyecto
 
-* Cuando vayas a trabajar en este proyecto, activa la versión correcta:
+* Para activar una versión específica antes de iniciar el desarrollo:
 
   ```bash
   nvm use 20.13.1
   ```
 
-* O para otro proyecto (si necesita la anterior):
+* O si necesitas una versión anterior:
 
   ```bash
   nvm use 18.17.0
   ```
 
-* Verifica la versión activa con:
+* Puedes verificar cuál versión está activa con:
 
   ```bash
   node -v
@@ -87,32 +84,36 @@ Este documento describe cómo crear desde cero una aplicación multilenguaje uti
 
 ---
 
-### ✅ 5. Opcional: ver todas tus versiones instaladas
+### ✅ Ver versiones instaladas
+
+Para ver una lista las versiones instaladas en tu sistema:
+
+* Ejecuta: 
 
 ```bash
 nvm list
 ```
 
-* Te mostrará algo así:
+* El resultado será similar a:
 
   ```plaintext
-  * 20.13.1 (default)
-    18.17.0
+  * * 20.13.1 (default)
+  * * 18.17.0
   ```
 
-* El asterisco `*` indica cuál está activa.
+* El asterisco `*` indica qué versión está activa actualmente.
 
 ---
 
 ## 🚀 Crear un nuevo proyecto con la última versión de Next.js
 
-#### Abre la terminal y navega a la carpeta donde quieras crear el proyecto:
+#### Abre la terminal y navega a la carpeta donde quieras crear el proyecto, por ejemplo:
 
 ```bash
 cd C:/xampp/htdocs
 ```
 
-#### Crea el proyecto con `create-next-app`:
+#### Crea un nuevo proyecto con `create-next-app@latest`:
 
 ```bash
 npx create-next-app@latest example-i18n
@@ -149,7 +150,7 @@ code .
 
 ---
 
-## 🔌 Extensiones recomendadas para **Visual Studio Code** en este proyecto:
+## 🔌 Extensiones recomendadas en **Visual Studio Code** para este proyecto:
 
 - Spanish Language Pack for Visual de **Microsoft** — Perfecto si prefieres la interfaz en español.
 
@@ -169,7 +170,7 @@ Para evitar errores como los de PowerShell (por ejemplo, "la ejecución de scrip
 
 ### 🧪 ¿Qué es Git Bash?
 
-Git Bash es una terminal que simula un entorno Linux (Bash) en Windows. Te permite usar comandos como `ls`, `cd`, `touch`, `rm`, etc., igual que en una terminal de Linux.
+Git Bash es una terminal que simula un entorno Linux (Bash) en Windows. Permite usar comandos como `ls`, `cd`, `touch`, `rm`, etc. Esto es útil para trabajar con herramientas de desarrollo modernas como Laravel, Node.js y Docker desde un entorno más familiar para desarrolladores que vienen de Linux/macOS.
 
 ### ✅ Pasos para configurarla:
 
@@ -181,39 +182,38 @@ Git Bash es una terminal que simula un entorno Linux (Bash) en Windows. Te permi
    Ctrl + ,
    ```
 
-   O ve a:
+   O manualmente:
 
    ```
    Archivo → Preferencias → Configuración
    ```
 
-3. En la barra de búsqueda escribe:
+3. En la barra de búsqueda de configuración escribe:
 
    ```
    terminal predeterminada
    ```
 
-4. Haz clic en **Edit in settings.json**
+4. Haz clic en **Edit in settings.json** o o **Editar en settings.json**
 
-5. Para establecer **Git Bash** como tu terminal predeterminada, solo tienes que añadir dos líneas clave sin borrar lo que ya tienes al final del archivo después de terminal.integrated.autoReplies, por ejemplo:
+5. Dentro del archivo `settings.json`, agrega las siguientes líneas al final (sin borrar lo que ya existe):
 
 ```json
 {
-    ...
+  ...
 
-    "terminal.integrated.autoReplies": {
-
-    },
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.profiles.windows": {
-        "Git Bash": {
-            "source": "Git Bash"
-        }
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "source": "Git Bash"
     }
+  }
 }
 ```
 
-6. Guarda los cambios (Ctrl + s), luego cierra y vuelve a abrir VS Code. Cuando abras una nueva terminal (Ctrl + ñ), debería abrirse con Git Bash automáticamente.
+⚠️ Asegúrate de no eliminar otras configuraciones existentes en el archivo JSON.
+
+Guarda los cambios (Ctrl + S), luego cierra y vuelve a abrir VS Code. Cuando abras una nueva terminal (Ctrl + ñ), debería abrirse con Git Bash automáticamente.
 
 ### 💡 Resultado:
 
