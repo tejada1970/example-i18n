@@ -86,7 +86,7 @@ Puedes instalar múltiples versiones de Node.js según las necesidades del proye
 
 ### ✅ Ver versiones instaladas
 
-Para ver una lista las versiones instaladas en tu sistema, ejecuta:
+* Para ver una lista las versiones instaladas en tu sistema, ejecuta:
 
   ```bash
   nvm list
@@ -94,10 +94,10 @@ Para ver una lista las versiones instaladas en tu sistema, ejecuta:
 
 * El resultado será similar a:
 
-```plaintext
-* * 20.13.1 (default)
-*  18.17.0
-```
+  ```plaintext
+  * 20.13.1 (default)
+  18.17.0
+  ```
 
 * El asterisco `*` indica qué versión está activa actualmente.
 
@@ -140,7 +140,7 @@ npm install next-intl
 
 ---
 
-## ✅ Abre el proyecto con **Visual Studio Code**:
+## ✅ Abre el proyecto con VS Code:
 
 ```bash
 code .
@@ -148,7 +148,7 @@ code .
 
 ---
 
-## 🔌 Extensiones recomendadas en **Visual Studio Code** para este proyecto:
+## 🔌 Extensiones recomendadas en VS Code para este proyecto:
 
 - Spanish Language Pack for Visual de **Microsoft** — Perfecto si prefieres la interfaz en español.
 
