@@ -1,4 +1,4 @@
-# 🌐 example-i18n - Proyecto multilenguaje con Next.js + `next-intl`
+# 🌐 ejemplo-i18n - Proyecto multilenguaje con Next.js + `next-intl`
 
 Este es un proyecto de ejemplo que implementa **i18n (internacionalización)** en Next.js usando `next-intl`, diseñado para ser una base educativa y funcional. Permite cambiar el idioma mediante rutas como `/en` y `/es`.
 
