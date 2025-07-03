@@ -1,122 +1,82 @@
 # 🌐 ejemplo-i18n - Proyecto multilenguaje con Next.js + `next-intl`
 
+> 📁 Este proyecto ha sido desarrollado únicamente con fines educativos y prácticos.
+
+> 📚 Incluye guías paso a paso sobre todo lo necesario para la creación o clonación de este proyecto.
+
+> 🗓 Última actualización: 01-06-2025.
+
+---
+
+## 📝 Descripción
+
 Este es un proyecto de ejemplo que implementa **i18n (internacionalización)** en Next.js usando `next-intl`, diseñado para ser una base educativa y funcional. Permite cambiar el idioma mediante rutas como `/en` y `/es`.
 
-> 📚 Incluye una guía completa paso a paso sobre cómo configurar `i18n`.
+---
 
-> 🗓 Este proyecto ha sido actualizado el 01-06-2025.
+## 🎯 Objetivo del proyecto
+
+El principal objetivo de este proyecto es compartir mis conocimientos en desarrollo web con la comunidad, e inspirar a cualquier persona que este interesada en aprender desarrollo web tanto de forma autodidacta como profesional.
 
 ---
 
 ## 🚀 Características principales
 
-- ✅ Multilenguaje (ES / EN)
-- ✅ Basado en la versión de Next.js v15 con App Router
-- ✅ Sin base de datos
-- ✅ Proyecto educativo y práctico
-- ✅ Componentes traducibles con soporte para Server y Client components
+- ✅ Multilenguaje (ES / EN).
+- ✅ Basado en la versión de Next.js v15 con App Router.
+- ✅ Sin base de datos (los textos y traducciones están almacenados en archivos de traducción locales).
+- ✅ Componentes traducibles con soporte para Server y Client components.
 
 ---
 
 ## 📘 ¿Qué aprenderás?
 
 * Cómo iniciar un proyecto con la última versión de Next.js desde cero.
-* Configurar rutas internacionales (`i18n`) con `next-intl`.
-* Cargar archivos de traducción para diferentes idiomas.
-* Traducir tanto componentes cliente como servidor.
-* Manejar rutas, middleware y estructura de carpetas en proyectos Next.js.
+* Cómo configurar rutas internacionales (`i18n`) con `next-intl`.
+* Cómo cargar y gestionar archivos de traducción para diferentes idiomas.
+* Cómo traducir tanto componentes cliente como servidor en Next.js.
+* Cómo manejar rutas, middleware y estructura de carpetas en proyectos Next.js.
+* Mejoras en la optimización y el rendimiento de aplicaciones multilenguaje.
 
 ---
 
-## 🔧 Configurar internacionalización paso a paso
+## 🔧 Crear este proyecto desde cero
 
-Sigue esta guía detallada para implementar `next-intl` desde cero:
+Si decides no clonar, sigue estas guías detalladas paso a paso para crear el proyecto y configurar `i18n` con `next-intl` desde cero:
 
-📄 [Guía completa de configuración i18n](./docs/config-i18n.md)
+- 📄 [Crear proyecto Next.js)](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-nextjs.md)
 
----
-
-## ✅ ¿Prefieres clonar el proyecto ya listo?
-
-Si no deseas configurar todo manualmente, puedes clonar este repositorio basado en *Next.js v15* para ver el proyecto ya funcional:
-
-Asegúrate de tener *Git* instalado en tu sistema. Puedes descargarlo e instalarlo desde [https://git-scm.com/](https://git-scm.com/).
-
-Abre la terminal *Git Bash* y navega a la carpeta *htdocs*:
-
-```bash
-cd C:/xampp/htdocs
-git clone https://github.com/tejada1970/example-i18n.git
-cd example-i18n
-npm install
-npm run dev
-```
-
-Luego, abre [http://localhost:3000/es](http://localhost:3000/es) o [http://localhost:3000/en](http://localhost:3000/en) para ver el sitio en español o inglés.
+- 📄 [Configurar i18n con next-intl](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/configurar-i18n-con-next-intl.md)
 
 ---
 
-## 🛠 Consejo práctico (Recomendado)
+## 📥 ¿Cómo clonar y ejecutar este proyecto?
 
-### ✅ Ventajas de empezar desde cero
+En esta guía, encontrarás toda la información necesaria sobre cómo clonar y ejecutar este proyecto en un entorno local con **XAMPP**:
 
- - Instalas dependencias actualizadas automáticamente (Next.js, React, TypeScript, etc.).
- - Obtienes una estructura limpia, sin advertencias ni paquetes obsoletos.
- - Mejor base para mantener y escalar el proyecto.
- - Evitas errores como los `npm WARN deprecated`.
+- 📄 [Clonar proyecto Next.js en XAMPP](https://github.com/tejada1970/guias-desarrollo/blob/master/clonar/clonar-proyecto-nextjs-en-xampp.md)
 
-### Si tu objetivo es:
-- Aprender correctamente
-- Tener un entorno limpio y actualizado
-- Evitar errores por dependencias obsoletas
-
-Entonces lo mejor es comenzar desde cero con create-next-app@latest.
+> 💡 **Recuerda copiar la URL de este repositorio desde `<> Code / HTTPS` para reemplazar la URL de ejemplo que se proporciona en la guía para clonar el proyecto.**
 
 ---
 
-## 📟 Licencia
+## 📄 Licencia
 
-Este proyecto está licenciado bajo la MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles. Está diseñado con fines educativos y prácticos.
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
 
-## 📦 Sobre Next.js (base de este proyecto)
+## 📦 Sobre Next.js
 
-Este proyecto fue generado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). A continuación, se incluye la documentación estándar de inicio rápido.
+Este proyecto fue desarrollado usando [Next.js](https://nextjs.org/), un framework de React para aplicaciones web modernas, con soporte para renderizado híbrido (SSR, SSG, ISR), rutas dinámicas, internacionalización (i18n), optimización de imágenes, fuentes, y más.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Next.js permite usar tanto el **directorio tradicional** `pages/` como la nueva **App Router con el directorio** `app/`, compatible con **JavaScript** o **TypeScript**.
 
-## Getting Started
+> 💡 La estructura exacta del proyecto (`pages/`, `app/`, uso de `page.jsx` o `page.tsx`, organización por idiomas con `locale/`, etc.) puede variar según la configuración y objetivos del repositorio.
 
-First, run the development server:
+### 📚 Recursos oficiales
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- 📖 [Documentación oficial de Next.js](https://nextjs.org/docs)
+- 🎓 [Tutorial interactivo](https://nextjs.org/learn)
+- 💻 [Repositorio oficial en GitHub](https://github.com/vercel/next.js/)
+- ☁️ [Despliegue con Vercel](https://nextjs.org/docs/deployment)
