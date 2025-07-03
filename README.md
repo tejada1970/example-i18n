@@ -44,7 +44,7 @@ El principal objetivo de este proyecto es compartir mis conocimientos en desarro
 
 Si decides no clonar este proyecto, sigue estas guías detalladas paso a paso para crear un nuevo proyecto con Next.js y configurar `i18n` con `next-intl` desde cero:
 
-- 📄 [Crear proyecto Next.js)](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-nextjs.md)
+- 📄 [Crear proyecto Next.js](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-nextjs.md)
 
 - 📄 [Configurar i18n con next-intl](https://github.com/tejada1970/guias-desarrollo/blob/master/utilidades/configurar-i18n-con-next-intl.md)
 
