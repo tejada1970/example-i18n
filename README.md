@@ -40,9 +40,9 @@ El principal objetivo de este proyecto es compartir mis conocimientos en desarro
 
 ---
 
-## 🔧 Crear este proyecto desde cero
+## 🔧 Crear un proyecto Next.js desde cero
 
-Si decides no clonar, sigue estas guías detalladas paso a paso para crear el proyecto y configurar `i18n` con `next-intl` desde cero:
+Si decides no clonar este proyecto, sigue estas guías detalladas paso a paso para crear un nuevo proyecto con Next.js y configurar `i18n` con `next-intl` desde cero:
 
 - 📄 [Crear proyecto Next.js)](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-nextjs.md)
 
