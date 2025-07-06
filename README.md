@@ -46,7 +46,7 @@ Si decides no clonar este proyecto, sigue estas guías detalladas paso a paso pa
 
 - 📄 [Crear proyecto Next.js](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-nextjs.md)
 
-- 📄 [Configurar `i18n` con `next-intl`](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-i18n-con-next-intl.md)
+- 📄 [Configurar i18n con next-intl](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-i18n-con-next-intl.md)
 
 ---
 
