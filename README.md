@@ -42,7 +42,7 @@ El principal objetivo de este proyecto es compartir mis conocimientos en desarro
 
 ## 🔧 Crear un proyecto Next.js (desde cero)
 
-Si decides no clonar este proyecto, consulta esta guía paso a paso para crear un nuevo proyecto con Next.js.
+En esta guía, encontrarás toda la información necesaria sobre cómo crear un nuevo proyecto Next.js:
 
 - 📄 [Crear proyecto Next.js](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-proyecto-nextjs.md)
 
@@ -50,7 +50,7 @@ Si decides no clonar este proyecto, consulta esta guía paso a paso para crear u
 
 ## ⚙️ Configurar `i18n` con `next-intl` (desde cero)
 
-Consulta esta guía de configuración paso a paso para la implementación de soporte multilenguaje en este proyecto.
+En esta guía, encontrarás toda la información necesaria sobre cómo implementar el soporte multilenguaje en este proyecto:
 
 - 📄 [Configurar i18n con next-intl](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-i18n-con-next-intl.md)
 
@@ -60,7 +60,7 @@ Consulta esta guía de configuración paso a paso para la implementación de sop
 
 Crear un repositorio en **GitHub** y subir tu proyecto local permite mantener tu código seguro, respaldado y accesible desde cualquier lugar. Además, facilita el trabajo colaborativo, el seguimiento de cambios, y la integración con herramientas de desarrollo modernas como CI/CD, despliegues automáticos y más.
 
-Consulta esta guía paso a paso para crear un repositorio en **GitHub** y subir tu proyecto local:
+En esta guía, encontrarás toda la información necesaria sobre cómo crear un repositorio en **GitHub** y subir tu proyecto local:
 
 - 📄 [Crear repositorio en GitHub y subir proyecto local](https://github.com/tejada1970/guias-desarrollo/blob/master/crear/crear-repositorio-github-subir-proyecto.md)
 
