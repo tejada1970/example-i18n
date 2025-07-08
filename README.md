@@ -2,7 +2,7 @@
 
 > 📁 Este proyecto ha sido desarrollado únicamente con fines educativos y prácticos.
 
-> 📚 Incluye guías paso a paso sobre todo lo necesario para la creación o clonación de este proyecto.
+> 📚 Incluye guías paso a paso.
 
 > 🗓 Última actualización: 06-07-2025.
 
