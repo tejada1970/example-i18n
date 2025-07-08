@@ -52,7 +52,7 @@ En esta guía, encontrarás toda la información necesaria sobre cómo crear un 
 
 En esta guía, encontrarás toda la información necesaria sobre cómo implementar el soporte multilenguaje en este proyecto:
 
-- 📄 [Configurar i18n con next-intl](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-i18n-con-next-intl.md)
+- 📄 [Configurar i18n con next-intl (soporte multilenguaje)](https://github.com/tejada1970/guias-desarrollo/blob/master/configuraciones/configurar-i18n-con-next-intl.md)
 
 ---
 
